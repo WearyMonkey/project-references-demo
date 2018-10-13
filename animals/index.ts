@@ -1,5 +1,5 @@
-import Animal from './animal';
+import { Foo } from "../core/utilities";
 
-export default Animal;
-import { createDog, Dog } from './dog';
-export { createDog, Dog };
+export const animals = 1;
+
+export type Baa = Foo;

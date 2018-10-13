@@ -1,10 +1,13 @@
 {
   "extends": "../tsproject.json",
   "compilerOptions": {
-    "outDir": "../lib/animals",
-    "rootDir": ".",
+    "outDir": "../lib",
+    "rootDir": ".."
   },
   "references": [
-    { "path": "../core" }
+    { "path": "../core"}
+  ],
+  "files": [
+    "./index.ts"
   ]
 }

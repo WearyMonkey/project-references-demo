@@ -1,7 +1,10 @@
 {
   "extends": "../tsproject.json",
   "compilerOptions": {
-    "outDir": "../lib/core",
-    "rootDir": "."
-  }
+    "outDir": "../lib",
+    "rootDir": ".."
+  },
+  "files": [
+    "./utilities.ts"
+  ]
 }

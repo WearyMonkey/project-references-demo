@@ -1,9 +1,3 @@
-// import Animal from '../animals/index';
-import { Dog, createDog } from '../animals/index';
+import { animals } from '../animals/index';
 
-export function createZoo(): Array<Dog> {
-    return [
-        createDog()
-    ];
-}
-
+console.log(animals);
